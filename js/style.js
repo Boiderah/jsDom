@@ -1,5 +1,5 @@
 let design= document.getElementById('part')
-const gabb= design.innerHTML
+const innitial= design.innerHTML
 console.log(part);
 
 let winner= document.getElementsByClassName('textnet')
@@ -32,15 +32,28 @@ changeimg.addEventListener('click', boi)
 //     }
 //     changeimg.setAttribute('src', './res/img_7816.jpg')
 // }
-function boi() {
-    if (design.innerHTML== gabb) {
-        design.innerHTML='i am <em>good to go</em> trust me'
-    } else {
-        design.innerHTML= gabb
-    } else if {
-        design.innerHTML= 'billionaire'
-    }
+// const arr = ["gabby","madam","just cool","stressed"]
+// let counter = 0
 
+function boi() {
+    if (design.innerHTML== innitial) {
+        design.innerHTML='i am <em>good to go</em> trust me'
+    } else if( design.innerHTML=='i am <em>good to go</em> trust me'){
+        design.innerHTML='just me'
+} else if ( design.innerHTML=='just me'){
+    design.innerHTML='this is nice '
+} else if(design.innerHTML=='this is nice'){
+    design.innerHTML='amazing'
+}else if(design.innerHTML='amazing'){
+    design.innerHTML='just stressed'
+} else {
+        design.innerHTML= innitial
+    } 
+
+// design.innerHTML= arr[counter]
+// if (counter<arr.length){
+//     counter
+// }
 
     changeimg.setAttribute('src', './res/img_7816.jpg')
 }
