@@ -32,28 +32,28 @@ changeimg.addEventListener('click', boi)
 //     }
 //     changeimg.setAttribute('src', './res/img_7816.jpg')
 // }
-// const arr = ["gabby","madam","just cool","stressed"]
-// let counter = 0
+const arr = ["gabby","madam","just cool","stressed"]
+let counter = 0
 
 function boi() {
-    if (design.innerHTML== innitial) {
-        design.innerHTML='i am <em>good to go</em> trust me'
-    } else if( design.innerHTML=='i am <em>good to go</em> trust me'){
-        design.innerHTML='just me'
-} else if ( design.innerHTML=='just me'){
-    design.innerHTML='this is nice '
-} else if(design.innerHTML=='this is nice'){
-    design.innerHTML='amazing'
-}else if(design.innerHTML='amazing'){
-    design.innerHTML='just stressed'
-} else {
-        design.innerHTML= innitial
-    } 
+//     if (design.innerHTML== innitial) {
+//         design.innerHTML='i am <em>good to go</em> trust me'
+//     } else if( design.innerHTML=='i am <em>good to go</em> trust me'){
+//         design.innerHTML='just me'
+// } else if ( design.innerHTML=='just me'){
+//     design.innerHTML='this is nice '
+// } else if(design.innerHTML=='this is nice'){
+//     design.innerHTML='amazing'
+// }else if(design.innerHTML='amazing'){
+//     design.innerHTML='just stressed'
+// } else {
+//         design.innerHTML= innitial
+//     } 
 
-// design.innerHTML= arr[counter]
-// if (counter<arr.length){
-//     counter
-// }
+design.innerHTML= arr[counter]
+if (counter<arr.length){
+    counter
+}
 
     changeimg.setAttribute('src', './res/img_7816.jpg')
 }
